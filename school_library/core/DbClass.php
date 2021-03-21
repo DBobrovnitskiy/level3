@@ -14,9 +14,9 @@ use PDO;
 class DbClass
 {
     private const HOST = 'localhost';
-    private const DB = 'test_migration';
-    private const USER = 'root';
-    private const PASS = 'denis123';
+    private const DB = '';
+    private const USER = '';
+    private const PASS = '';
 
     private $pdo;
 
