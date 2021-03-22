@@ -1,0 +1,2 @@
+ALTER TABLE `books`
+    ADD `is_delete` BOOLEAN NOT NULL DEFAULT FALSE AFTER `views`;
