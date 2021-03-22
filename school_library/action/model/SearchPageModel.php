@@ -54,7 +54,7 @@ class SearchPageModel extends AbstractModel
     protected function getMassage($request, $content): string
     {
         if ($request === false) {
-            return 'Не корректный запрос';
+            return 'Некорректный запрос';
         }
         if ($content == false) {
             return 'Поиск по запросу "' . $request . '" не дал результата';
