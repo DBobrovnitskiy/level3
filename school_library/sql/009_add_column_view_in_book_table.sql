@@ -1,2 +1,0 @@
-ALTER TABLE `books`
-    ADD `views` INT UNSIGNED NOT NULL DEFAULT '0' AFTER `clicks`;
