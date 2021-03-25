@@ -77,7 +77,7 @@ $(".deleteBook").click(function (e) {
 
 $('#logout').click(function (e) {
     $.ajax({
-        url: host + '/library/action/controller/test.php',
+        url: host + '/school_library/logout.php',
         method: 'POST',
         dataType: 'JSON',
     }).done()
