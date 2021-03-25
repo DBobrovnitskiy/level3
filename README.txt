@@ -22,7 +22,7 @@ server {
     }
 }
 
-Create a database "some_name_table" 
+Create a database "some_name" 
 
 In the file "school_library/sql/connectApplications.php" fill in the data for the database 
 
